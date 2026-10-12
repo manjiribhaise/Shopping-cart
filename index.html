@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshMart Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🥑 FreshMart</h1>
+        <p>Fresh groceries, happy living!</p>
+        <div class="cart-icon">🛒 My Cart: <span id="cart-count">0</span></div>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h2>Freshness Delivered Daily! 🥦</h2>
+            <p>Shop your favourite groceries at the best prices.</p>
+            <a href="#products">Shop Now ↓</a>
+        </div>
+    </section>
+
+    <main>
+        <h2 class="heading">🛍️ Our Products</h2>
+        <div id="products" class="product-container">
+            <p>Loading products...</p>
+        </div>
+
+        <section class="cart-section">
+            <h2>🛒 Your Shopping Cart</h2>
+            <div id="cart-items">
+                <p class="empty">Your cart is empty. Add some products!</p>
+            </div>
+
+            <div class="total">
+                <h3>Total: ₹<span id="total-price">0.00</span></h3>
+                <button onclick="clearCart()" class="clear-btn">
+                    Clear Cart
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>🥑 FreshMart | Made with ❤️ using HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
